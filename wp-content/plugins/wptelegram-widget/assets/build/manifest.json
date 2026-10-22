@@ -1,0 +1,60 @@
+{
+  "__commonjsHelpers-CqkleIqs.js": {
+    "file": "dist/_commonjsHelpers-CqkleIqs.js",
+    "name": "_commonjsHelpers"
+  },
+  "_get-plugin-data-D3L8TS3p.js": {
+    "file": "dist/get-plugin-data-D3L8TS3p.js",
+    "name": "get-plugin-data",
+    "imports": [
+      "__commonjsHelpers-CqkleIqs.js"
+    ]
+  },
+  "_jquery-BNSPwlrv.js": {
+    "file": "dist/jquery-BNSPwlrv.js",
+    "name": "jquery",
+    "imports": [
+      "__commonjsHelpers-CqkleIqs.js"
+    ]
+  },
+  "js/blocks/index.ts": {
+    "file": "dist/blocks-Ct8ova1c.js",
+    "name": "blocks",
+    "src": "js/blocks/index.ts",
+    "isEntry": true,
+    "imports": [
+      "_get-plugin-data-D3L8TS3p.js",
+      "__commonjsHelpers-CqkleIqs.js"
+    ],
+    "css": [
+      "dist/blocks-C9ogPNk6.css"
+    ]
+  },
+  "js/public/index.ts": {
+    "file": "dist/public-BuaRxp9K.js",
+    "name": "public",
+    "src": "js/public/index.ts",
+    "isEntry": true,
+    "imports": [
+      "_jquery-BNSPwlrv.js",
+      "__commonjsHelpers-CqkleIqs.js"
+    ],
+    "css": [
+      "dist/public-DEib7km8.css"
+    ]
+  },
+  "js/settings/index.ts": {
+    "file": "dist/settings-CBxedTtW.js",
+    "name": "settings",
+    "src": "js/settings/index.ts",
+    "isEntry": true,
+    "imports": [
+      "_get-plugin-data-D3L8TS3p.js",
+      "_jquery-BNSPwlrv.js",
+      "__commonjsHelpers-CqkleIqs.js"
+    ],
+    "css": [
+      "dist/settings-Brs5RHTZ.css"
+    ]
+  }
+}

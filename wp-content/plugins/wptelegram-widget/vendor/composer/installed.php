@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'wptelegram/widget',
+        'pretty_version' => 'dev-772eb3d1259895d2c8beef7248146cf8c42c6b39',
+        'version' => 'dev-772eb3d1259895d2c8beef7248146cf8c42c6b39',
+        'reference' => '772eb3d1259895d2c8beef7248146cf8c42c6b39',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../../',
+        'aliases' => array(),
+        'dev' => false,
+    ),
+    'versions' => array(
+        'wpsocio/wp-utils' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'f96967230d969e4a86210db22d73c65790e1327d',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../wpsocio/wp-utils',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'wpsocio/wptelegram-bot-api' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '39ae80131677fcd4d1dc092d7cf1f56c6fa648c7',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../wpsocio/wptelegram-bot-api',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'wptelegram/widget' => array(
+            'pretty_version' => 'dev-772eb3d1259895d2c8beef7248146cf8c42c6b39',
+            'version' => 'dev-772eb3d1259895d2c8beef7248146cf8c42c6b39',
+            'reference' => '772eb3d1259895d2c8beef7248146cf8c42c6b39',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
