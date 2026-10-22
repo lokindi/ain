@@ -1,0 +1,1561 @@
+# Translation of Plugins - All-In-One Security (AIOS) – Security and Firewall - Stable (latest release) in Arabic
+# This file is distributed under the same license as the Plugins - All-In-One Security (AIOS) – Security and Firewall - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-09-17 11:07:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: ar\n"
+"Project-Id-Version: Plugins - All-In-One Security (AIOS) – Security and Firewall - Stable (latest release)\n"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:992
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1355
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:1323
+#: other-includes/wp-security-rename-login-feature.php:1460
+msgid "Your session has expired. Please log in to continue where you left off."
+msgstr "تم انتهاء الجلسة. يرجى تسجيل الدخول للاستمرار."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:607
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1047
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:871
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1425
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:816
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:1398
+#: other-includes/wp-security-rename-login-feature.php:912
+#: other-includes/wp-security-rename-login-feature.php:1538
+msgid "Username or Email Address"
+msgstr "اسم المستخدم أو البريد الإلكتروني"
+
+#: other-includes/wp-security-unlock-request.php:105
+msgid "Please enter your email address and you will receive an email with instructions on how to unlock yourself."
+msgstr "يرجى إدخال عنوان بريدك الإلكتروني ليصلك إليه تعليمات حول كيفية رفع الحظر عن حسابك."
+
+#: other-includes/wp-security-unlock-request.php:104
+msgid "You are here because you have been locked out due to too many incorrect login attempts."
+msgstr "أنت هنا لأنّ تم حظر حسابك لتجاوزك الحد الأقصى لعدد المرات غير صحيحة لتسجيل الدخول."
+
+#: other-includes/wp-security-unlock-request.php:86
+msgid "An email has been sent to you with the unlock instructions."
+msgstr "تم إرسال رسالة إلكترونية لك متضمنةً تعليمات رفع الحظر"
+
+#. translators: 1: Email 2: Link
+#: classes/wp-security-user-login.php:564
+msgid "Unlock link: %s"
+msgstr "رابط رفع الحظر: %s"
+
+#: templates/wp-admin/user-security/http-authentication.php:66
+msgid "Username:"
+msgstr "اسم المستخدم:"
+
+#: classes/wp-security-general-init-tasks.php:857
+msgid "Your registration is pending approval."
+msgstr "الموافقة على التسجيل في وضع الانتظار."
+
+#: other-includes/wp-security-unlock-request.php:115
+msgid "Email Address"
+msgstr "عنوان البريد الإلكتروني"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:622
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:693
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:750
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:843
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:890
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:966
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1024
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1124
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:835
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:921
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:980
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:1089
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:1422
+#: other-includes/wp-security-rename-login-feature.php:931
+#: other-includes/wp-security-rename-login-feature.php:1020
+#: other-includes/wp-security-rename-login-feature.php:1094
+#: other-includes/wp-security-rename-login-feature.php:1214
+msgid "Log in"
+msgstr "تسجيل الدخول"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1062
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1447
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:1420
+#: other-includes/wp-security-rename-login-feature.php:1560
+msgid "Remember Me"
+msgstr "تذكرني"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:708
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:981
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:936
+#: other-includes/wp-security-rename-login-feature.php:1051
+msgid "New password"
+msgstr "كلمة مرور جديدة"
+
+#. translators: %s: User name.
+#. translators: %s: user login
+#. translators: %s: User login.
+#: classes/wp-security-user-login.php:407
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:375
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:430
+msgid "Username: %s"
+msgstr "اسم المستخدم: %s"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:625
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:753
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:839
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1081
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:894
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1028
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1119
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1481
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:839
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:984
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:1084
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:1454
+#: other-includes/wp-security-rename-login-feature.php:935
+#: other-includes/wp-security-rename-login-feature.php:1098
+#: other-includes/wp-security-rename-login-feature.php:1209
+#: other-includes/wp-security-rename-login-feature.php:1594
+msgid "Register"
+msgstr "التسجيل"
+
+#. translators: 1: Browser cookie documentation URL, 2: Support forums URL
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:933
+msgid "https://wordpress.org/support/"
+msgstr "https://wordpress.org/support/"
+
+#: other-includes/wp-security-unlock-request.php:54
+msgid "Please enter a valid email address"
+msgstr "يرجى إدخال بريداً إلكترونياً صالحاً"
+
+#: other-includes/wp-security-unlock-request.php:36
+msgid "ERROR: Unable to process your request!"
+msgstr "خطأ: عدم القدرة على معالجة طلبك!"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1023
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1064
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1398
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1449
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:1366
+#: other-includes/wp-security-rename-login-feature.php:54
+#: other-includes/wp-security-rename-login-feature.php:1506
+#: other-includes/wp-security-rename-login-feature.php:1562
+msgid "Log In"
+msgstr "تسجيل الدخول"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1006
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1364
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:1332
+#: other-includes/wp-security-rename-login-feature.php:1469
+msgid "<strong>You have successfully updated WordPress!</strong> Please log back in to see what&#8217;s new."
+msgstr "<strong>تم تحديث ووردبريس بنجاح!</strong> يرجى إعادة تسجيل الدخول لعرض كل جديد."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1004
+msgid "Registration complete. Please check your email."
+msgstr "تم اكتمال التسجيل. يرجى تفقد بريدك الإلكتروني."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1002
+msgid "Check your email for your new password."
+msgstr "يرجى تفقد بريدك الإلكتروني للحصول على كلمة المرور الجديدة"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1000
+msgid "Check your email for the confirmation link."
+msgstr "قم بتفقد البريد الإلكتروني للحصول على رابط التأكيد."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:996
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1360
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:1328
+#: other-includes/wp-security-rename-login-feature.php:1465
+msgid "You are now logged out."
+msgstr "تم تسجيل الخروج للتوّ"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:955
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1282
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:1250
+#: other-includes/wp-security-rename-login-feature.php:1382
+msgid "You have logged in successfully."
+msgstr "تم تسجيل الدخول بنجاح."
+
+#. translators: 1: Browser cookie documentation URL, 2: Support forums URL
+#. translators: 1: Browser cookie documentation URL
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:933
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:937
+msgid "https://codex.wordpress.org/Cookies"
+msgstr "https://codex.wordpress.org/Cookies"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:845
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1089
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1126
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1490
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:1091
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:1462
+#: other-includes/wp-security-rename-login-feature.php:1219
+#: other-includes/wp-security-rename-login-feature.php:1602
+msgid "Lost your password?"
+msgstr "هل نسيت كلمة المرور؟"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:836
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1114
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:1079
+#: other-includes/wp-security-rename-login-feature.php:1205
+msgid "Registration confirmation will be emailed to you."
+msgstr "سيتم إرسال تأكيد التسجيل عبر البريد الإلكتروني"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:816
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1093
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:1058
+#: other-includes/wp-security-rename-login-feature.php:1177
+msgid "Register For This Site"
+msgstr "التسجيل بالموقع"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:816
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1093
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:1058
+#: other-includes/wp-security-rename-login-feature.php:1175
+msgid "Registration Form"
+msgstr "نموذج التسجيل"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:728
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:999
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:954
+#: other-includes/wp-security-rename-login-feature.php:1069
+msgid "Confirm new password"
+msgstr "تأكيد كلمة المرور"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:718
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:990
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:945
+#: other-includes/wp-security-rename-login-feature.php:1060
+msgid "Strength indicator"
+msgstr "مؤشر القوة"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:701
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:974
+msgid "Enter your new password below."
+msgstr "يرجى إدخال كلمة المرور الجديدة أدناه."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:693
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:966
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:921
+#: other-includes/wp-security-rename-login-feature.php:1020
+msgid "Your password has been reset."
+msgstr "تم إعادة ضبط كلمة المرور."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:677
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:950
+msgid "The passwords do not match."
+msgstr "كلمات المرور غير متطابقة"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:595
+msgid "Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr "يرجى إدخال اسم المستخدم أو البريد الإلكتروني الخاص بك. سوف تستلم رابطاً لإنشاء كلمة مرور جديدة عبر بريدك الإلكتروني."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:595
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:859
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:795
+#: other-includes/wp-security-rename-login-feature.php:882
+msgid "Lost Password"
+msgstr "نسيت كلمة المرور"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:419
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr "سبب متوقع: يمكن أن مزود الاستضافة قام بتعطيل وظيفة mail()."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:419
+msgid "The email could not be sent."
+msgstr "لم يتم إرسال البريد الإلكتروني"
+
+#. translators: Password reset email subject. %s: Site name
+#. translators: Password reset notification email subject. %s: Site title.
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:381
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:445
+msgid "[%s] Password Reset"
+msgstr "إعادة ضبط كلمة مرور [%s]"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:377
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:432
+msgid "To reset your password, visit the following address:"
+msgstr "لإعادة تعيين كلمة مرورك، تقضل بزيارة الرابط التالي:"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:376
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "إذا كان هناك خطأ، فقط تجاهل هذه الرسالة ولن يحدث أي شيء."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:371
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:426
+msgid "Someone has requested a password reset for the following account:"
+msgstr "لقد قام أحدهم بطلب إعادة ضبط كلمة المرور للحساب التالي:"
+
+#: classes/wp-security-user-registration.php:80
+msgid "<strong>ERROR</strong>: You are not allowed to register because your IP address is currently locked!"
+msgstr "<strong>خطأ</strong>: لا يسمح لك بتسجيل الدخول بسبب حظر عنوان الانترنت IP الخاص بك."
+
+#: classes/wp-security-user-login.php:777
+msgid "You were logged out because you just changed the \"admin\" username."
+msgstr "لقد تم تسجيل خروجك من الموقع ﻷنّك قمت بتغيير اسم المستخدم \"admin\"."
+
+#: classes/wp-security-user-login.php:774
+#: classes/wp-security-user-login.php:778
+msgid "Please log back in to continue."
+msgstr "يرجى إعادة تسجيل الدخول للاستمرار."
+
+#. translators: %s: Minute count
+#: classes/wp-security-user-login.php:773
+msgid "Your session has expired because it has been over %d minutes since your last login."
+msgstr "تم انتهاء صلاحية الجلسة بسبب مرور أكثر من %d دقيقة منذ تسجيل دخولك الأخير."
+
+#: classes/wp-security-user-login.php:399
+msgid "Site Lockout Notification"
+msgstr "إشعار قفل الموقع"
+
+#: classes/wp-security-user-login.php:256
+msgid "<strong>ERROR</strong>: Invalid login credentials."
+msgstr "<strong>خطأ</strong>: معلومات تسجيل دخول غير صحيحة."
+
+#: classes/wp-security-captcha.php:814
+#: classes/wp-security-general-init-tasks.php:764
+msgid "Your CAPTCHA answer was incorrect - please try again."
+msgstr "إجابة الكابتشا التي أدخلتها غير صحيحة - يرجى المحاولة مجدداً."
+
+#: classes/wp-security-general-init-tasks.php:539
+msgid "Enter something special:"
+msgstr "قم بإدخال قيمة مميزة: "
+
+#: classes/wp-security-general-init-tasks.php:528
+#: classes/wp-security-general-init-tasks.php:616
+#: classes/wp-security-general-init-tasks.php:780
+#: classes/wp-security-user-registration.php:86
+msgid "<strong>ERROR</strong>: Your answer was incorrect - please try again."
+msgstr "<strong>خطأ</strong>: إجابتك غير صحيحة - يرجى المحاولة مجدداً."
+
+#: classes/wp-security-file-scanner.php:416
+msgid "The following files were changed on your host"
+msgstr "تم تغيير الملفات التالية على الاستضافة الخاصة بك"
+
+#: classes/wp-security-file-scanner.php:408
+msgid "The following files were removed from your host"
+msgstr "تم حذف الملفات التالية من الاستضافة الخاصة بك"
+
+#: classes/wp-security-file-scanner.php:400
+msgid "The following files were added to your host"
+msgstr "تم إضافة الملفات التالية إلى الاستضافة"
+
+#: classes/wp-security-file-scanner.php:374
+msgid "Login to your site to view the scan details."
+msgstr "تسجيل الدخول لعرض تفاصيل التفحص."
+
+#: classes/wp-security-file-scanner.php:371
+msgid "A summary of the scan results is shown below:"
+msgstr "يتم عرض ملخص نتائج التفحص أدناه:"
+
+#: classes/wp-security-captcha.php:483
+msgid "twenty"
+msgstr "عشرين"
+
+#: classes/wp-security-captcha.php:482
+msgid "nineteen"
+msgstr "تسعة عشر"
+
+#: classes/wp-security-captcha.php:481
+msgid "eighteen"
+msgstr "ثمانية عشر"
+
+#: classes/wp-security-captcha.php:480
+msgid "seventeen"
+msgstr "سبعة عشر"
+
+#: classes/wp-security-captcha.php:479
+msgid "sixteen"
+msgstr "ستة عشر"
+
+#: classes/wp-security-captcha.php:478
+msgid "fifteen"
+msgstr "خمسة عشر"
+
+#: classes/wp-security-captcha.php:477
+msgid "fourteen"
+msgstr "أربعة عشر"
+
+#: classes/wp-security-captcha.php:476
+msgid "thirteen"
+msgstr "ثلاثة عشر"
+
+#: classes/wp-security-captcha.php:475
+msgid "twelve"
+msgstr "اثنا عشر"
+
+#: classes/wp-security-captcha.php:474
+msgid "eleven"
+msgstr "إحدى عشر"
+
+#: classes/wp-security-captcha.php:473
+msgid "ten"
+msgstr "عشرة"
+
+#: classes/wp-security-captcha.php:472
+msgid "nine"
+msgstr "تسعة"
+
+#: classes/wp-security-captcha.php:471
+msgid "eight"
+msgstr "ثمانية"
+
+#: classes/wp-security-captcha.php:470
+msgid "seven"
+msgstr "سبعة"
+
+#: classes/wp-security-captcha.php:469
+msgid "six"
+msgstr "ستة"
+
+#: classes/wp-security-captcha.php:468
+msgid "five"
+msgstr "خمسة"
+
+#: classes/wp-security-captcha.php:467
+msgid "four"
+msgstr "أربعة"
+
+#: classes/wp-security-captcha.php:466
+msgid "three"
+msgstr "ثلاثة"
+
+#: classes/wp-security-captcha.php:465
+msgid "two"
+msgstr "اثنان"
+
+#: classes/wp-security-captcha.php:464
+msgid "one"
+msgstr "واحد"
+
+#: classes/wp-security-captcha.php:183 classes/wp-security-captcha.php:224
+#: classes/wp-security-captcha.php:367
+msgid "Please enter an answer in digits:"
+msgstr "يرجى إدخال الإجابة بالأرقام: "
+
+#: classes/grade-system/wp-security-feature-item.php:68
+msgid "Advanced"
+msgstr "متقدم"
+
+#: classes/grade-system/wp-security-feature-item.php:66
+msgid "Intermediate"
+msgstr "متوسط"
+
+#: classes/grade-system/wp-security-feature-item.php:64
+msgid "Basic"
+msgstr "أساسي"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:339
+msgid "Enable IP blocking for 404 detection"
+msgstr "تفعيل حظر عناوين الانترنت المسببة لخطأ 404"
+
+#: templates/wp-admin/user-security/manual-approval.php:22
+msgid "Enable manual approval of new registrations"
+msgstr "تفعيل الموافقة اليدوية على كل تسجيل جديد"
+
+#: templates/wp-admin/user-security/manual-approval.php:10
+msgid "You can view all accounts which have been newly registered via the handy table below and you can also perform bulk activation/deactivation/deletion tasks on each account."
+msgstr "يتم عرض كل الحسابات الجديدة في الجدول أدناه، كما يمكنك القيام بعمليات التفعيل أو التعطيل أو الحذف للحسابات بالجملة."
+
+#: templates/wp-admin/user-security/logged-in-users.php:13
+msgid "If you suspect there is a user or users who are logged in which should not be, you can block them by inspecting the IP addresses from the data below and adding them to your blacklist."
+msgstr "إذا اشتبهت بوجود مستخدمين مسجّلين حالياً ممن لا يجب تسجيل دخولهم بالموقع، تستطيع حظر هؤلاء المستخدمين من خلال تفحص عناوين الانترنت IPs الخاصة بهم الموجودة في البيانات أدناه، ومن ثم إضافتها إلى القائمة السوداء."
+
+#: templates/wp-admin/user-security/logged-in-users.php:12
+msgid "This tab displays all users who are currently logged into your site."
+msgstr "يتم عرض المستخدمين المسجّلين بالموقع حالياً في هذا التبويب."
+
+#: templates/wp-admin/user-security/force-logout.php:31
+msgid "(Minutes) The user will be forced to log back in after this time period has elapased."
+msgstr "(بالدقائق) سيتم الطلب من المستخدم تسجيل الدخول بالموقع مرة أخرى بعد مرور هذه الفترة الزمنية"
+
+#: templates/wp-admin/user-security/force-logout.php:5
+msgid "This feature allows you to specify a time period in minutes after which the admin session will expire and the user will be forced to log back in."
+msgstr "تقوم هذه الميزة بتحديد فترة زمنية محددة بالدقائق التي سيتم بعدها انتهاء جلسة المستخدم، وسيتم الطلب من المستخدم تسجيل الدخول مرة أخرى."
+
+#. translators: 1: Browser cookie documentation URL, 2: Support forums URL
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:933
+msgid "<strong>ERROR</strong>: Cookies are blocked due to unexpected output. For help, please see <a href=\"%1$s\">this documentation</a> or try the <a href=\"%2$s\">support forums</a>."
+msgstr "<strong>خطأ</strong>: ملفات الكوكيز محظورة لسبب ما غير متوقّع . للحصول على مساعدة، يرجى الاطلاّع على <a href=\"%1$s\">هذه الوثيقة</a> أو اللجوء إلى <a href=\"%2$s\">منتديات الدعم</a>."
+
+#. translators: 1: Browser cookie documentation URL
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:937
+msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href=\"%s\">enable cookies</a> to use WordPress."
+msgstr "<strong>خطأ</strong>: ملفات الكوكيز محظورة أو غير مدعومة من قبل متصفحك. يجب عليك <a href=\"%s\">تفعيل الكوكيز</a> لاستخدام ووردبريس."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:115
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:123
+#: other-includes/wp-security-rename-login-feature.php:137
+msgid "https://wordpress.org/"
+msgstr "https://ar.wordpress.org/"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:116
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:152
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:156
+#: other-includes/wp-security-rename-login-feature.php:166
+#: other-includes/wp-security-unlock-request.php:14
+msgid "Powered by WordPress"
+msgstr "يعمل بواسطة ووردبريس"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:701
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:746
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:974
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1019
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:929
+#: other-includes/wp-security-rename-login-feature.php:1035
+msgid "Reset Password"
+msgstr "إعادة تعيين كلمة المرور"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:693
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:966
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:921
+#: other-includes/wp-security-rename-login-feature.php:1018
+msgid "Password Reset"
+msgstr "إعادة تعيين كلمة المرور"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:572
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:832
+#: other-includes/wp-security-rename-login-feature.php:854
+msgid "Your password reset link appears to be invalid. Please request a new link below."
+msgstr "يبدو أن رابط إعادة تعيين كلمة المرور انتهت صلاحيته. الرجاء طلب رابط جديد أدناه."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:574
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:834
+#: other-includes/wp-security-rename-login-feature.php:856
+msgid "Your password reset link has expired. Please request a new link below."
+msgstr "انتهت صلاحية رابط إعادة تعيين كلمة المرور. الرجاء طلب رابط جديد أدناه."
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:998
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1362
+msgid "User registration is currently not allowed."
+msgstr "تسجيل الأعضاء غير متاح حاليًا."
+
+#. translators: %s: Locked IP link.
+#: templates/wp-admin/user-security/login-lockout.php:153
+msgid "To see a list of all locked IP addresses and ranges go to the %s tab in the dashboard menu."
+msgstr "قم بالذهاب إلى تبويب %s في قائمة الصفحة الرئيسية لعرض قائمة مجال وعناوين الانترنت IPs المحظورة."
+
+#: templates/wp-admin/user-security/login-lockout.php:48
+msgid "If the maximum number of failed login attempts for a particular IP address occur within this time period the plugin will lock out that address"
+msgstr "إذا تم تجاوز العدد الأقصى لمحاولات تسجيل الدخول الخاصة بعنوان انترنت IP ما ضمن هذه الفترة الزمنية، سيتم حظر عنوان الانترنت IP هذا."
+
+#: templates/wp-admin/user-security/login-lockout.php:42
+msgid "Set the value for the maximum login retries before IP address is locked out"
+msgstr "قم بوضع قيمة العدد الأقصى لمحاولات تسجيل الدخول قبل حظر عنوان الانترنت IP"
+
+#. translators: %s: Brute force feature link.
+#: templates/wp-admin/user-security/login-lockout.php:9
+msgid "You may also want to checkout our %s feature for another secure way to protect against these types of attacks."
+msgstr "يمكنك أيضاً الإطلاع على ميزة %s التي تعتبر طريقة آمنة أخرى للحماية من هذا النوع من الهجمات."
+
+#: templates/wp-admin/user-security/login-lockout.php:7
+msgid "Apart from choosing strong passwords, monitoring and blocking IP addresses which are involved in repeated login failures in a short period of time is a very effective way to stop these types of attacks."
+msgstr "بالإضافة إلى استخدام كلمة مرور قوية لمنع هذا النوع من الهجمات، كذلك يعتبر مراقبة وحظر عناوين الانترنت IPs المتورطة في عمليات تسجيل الدخول المتكررة والفاشلة في فترة زمنية قصيرة طريقة فعّالة للتصدي لهذه الهجمات."
+
+#: templates/wp-admin/user-security/login-lockout.php:6
+msgid "This is where attackers use repeated login attempts until they guess the password."
+msgstr "يحدث ذلك عندما يحاول القراصنة القيام بعمليات تسجيل دخول متعددة حتى يخمنوا كلمة المرور الصحيحة."
+
+#: templates/wp-admin/tools/password-tool.php:24
+#: templates/wp-admin/user-security/http-authentication.php:85
+msgid "1 sec"
+msgstr "ثانية"
+
+#: templates/wp-admin/tools/password-tool.php:16
+msgid "Start typing a password."
+msgstr "قم بكتابة كلمة المرور"
+
+#: templates/wp-admin/tools/password-tool.php:8
+msgid "This section contains a useful password strength tool which you can use to check whether your password is sufficiently strong enough."
+msgstr "يحتوي هذا القسم على أداة مقياس كلمة المرور، حيث يمكنك معرفة إذا كانت كلمة المرور المختارة قوية بشكل كافي أم لا."
+
+#: templates/wp-admin/tools/password-tool.php:7
+msgid "The longer and more complex your password is the harder it is for hackers to \"crack\" because more complex passwords require much greater computing power and time."
+msgstr "من الصعب تخمين كلمات المرور المكونة من محارف كثيرة ومختلفة، لأنّ ذلك يتطلب أجهزة حاسوب أكثر قوة، كما يتطلب وقت أطول."
+
+#: templates/wp-admin/tools/password-tool.php:5
+msgid "Poor password selection is one of the most common weak points of many sites and is usually the first thing a hacker will try to exploit when attempting to break into your site."
+msgstr "تعتبر كلمة المرور الضعيفة مركز الضعف الأكثر شيوعاً لأغلب المواقع، والتي غالباً ما تكون أول شيء يحاول القراصنة استغلاله في محاولاتهم للدخول إلى موقع الويب الخاص بك."
+
+#: templates/wp-admin/user-security/partials/display-name.php:37
+msgid "Your site does not have a user account where the display name is identical to the username."
+msgstr "لا يوجد أي حساب في موقع الويب الخاص بك، يكون فيه الاسم العلني نفس اسم المستخدم."
+
+#: templates/wp-admin/user-security/partials/display-name.php:37
+#: templates/wp-admin/user-security/partials/wp-username-content.php:21
+msgid "No action required."
+msgstr "لا حاجة للقيام بأي إجراء"
+
+#: templates/wp-admin/user-security/partials/display-name.php:7
+msgid "From a security perspective, leaving your nickname the same as your user name is bad practice because it gives a hacker at least half of your account's login credentials."
+msgstr "من ناحية أمنية، ليس من الجيد إبقاء الاسم المستعار الخاص بك نفس اسم المستخدم، لأنّ ذلك يعطي فرصة للقراصنة لمعرفة نصف معلومات تسجيل الدخول في الموقع."
+
+#: templates/wp-admin/user-security/partials/display-name.php:6
+msgid "By default the nickname is set to the login (or user) name of your account."
+msgstr "بشكل افتراضي، يكون الاسم المستعار نفس اسم تسجيل الدخول (اسم المستخدم) لحسابك."
+
+#: templates/wp-admin/user-security/partials/display-name.php:5
+msgid "When you submit a post or answer a comment, WordPress will usually display your \"nickname\"."
+msgstr "عادةً ما يقوم ووردبريس بعرض الاسم المستعار الخاص بك عند قيامك بإضافة أي منشور أو أي تعليق."
+
+#: templates/wp-admin/user-security/partials/wp-username-content.php:24
+msgid "This is good security practice."
+msgstr "يعتبر هذا ممارسة أمنية جيدة."
+
+#: templates/wp-admin/user-security/partials/wp-username-content.php:16
+msgid "NOTE: If you are currently logged in as \"admin\" you will be automatically logged out after changing your username and will be required to log back in."
+msgstr "ملاحظة: إذا كنت مسجّل الدخول بالموقع باسم مستخدم \"admin\" الآن، سيتم تسجيل الخروج من حسابك بعد تغيير اسم المستخدم بشكل أتوماتيكي، ومن ثم عليك تسجيل الدخول مجدداً."
+
+#: templates/wp-admin/user-security/partials/wp-username-content.php:10
+msgid "Choose a new username for admin."
+msgstr "قم بإدخال اسم مستخدم جديد للمدير."
+
+#: classes/wp-security-onboarding.php:185
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1051
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1430
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:1403
+#: other-includes/wp-security-rename-login-feature.php:1543
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: templates/wp-admin/settings/advanced-settings.php:70
+msgid "If your chosen server variable fails the plugin will automatically fall back to retrieving the IP address from $_SERVER[\"REMOTE_ADDR\"]"
+msgstr "إذا فشل متغير السيرفر المحدد، ستقوم الإضافة تلقائياً بالعودة إلى عنوان الانترنت IP المسترد من $_SERVER[\"REMOTE_ADDR\"]"
+
+#: templates/wp-admin/filesystem-security/file-permissions.php:13
+msgid "This feature is not applicable for Windows server installations."
+msgstr "لا تدعم هذه الميزة المواقع المثبتة على سيرفرات ويندوز."
+
+#: templates/wp-admin/filesystem-security/file-permissions.php:12
+msgid "This plugin has detected that your site is running on a Windows server."
+msgstr "اكتشفت هذه الإضافة أن موقعك يعمل على سيرفر ويندوز."
+
+#: templates/wp-admin/tools/custom-htaccess.php:40
+msgid "Place custom rules at the top"
+msgstr "قم بوضع القواعد المخصصة في أعلى الملف"
+
+#: templates/wp-admin/settings/wp-version-info.php:11
+msgid "This feature will allow you to remove the WP generator meta info and other version info from your site's pages."
+msgstr "تقوم هذه الميزة بحذف بيانات ووردبريس الوصفية ورقم إصدار النسخة في صفحات موقع الويب الخاص بك."
+
+#: templates/wp-admin/settings/general-settings.php:98
+msgid "This setting allows you to enable/disable debug for this plugin."
+msgstr "يتيح هذا الإعداد لك بتفعيل أو تعطيل تصحيح الأخطاء في هذه الإضافة."
+
+#: templates/wp-admin/user-security/partials/user-enumeration.php:15
+msgid "When enabled, this feature will print a \"forbidden\" error rather than the user information."
+msgstr "عند تفعيل هذه الميزة، سيتم عرض خطأ \"ممنوع\" بدلاً من عرض بيانات المستخدمين."
+
+#: templates/wp-admin/filesystem-security/copy-protection.php:15
+msgid "When admin user is logged in, the feature is automatically disabled for his session."
+msgstr "يتم تعطيل هذه الميزة في جلسة المدير عند تسجيل دخوله بالموقع."
+
+#: admin/wp-security-list-registered-users.php:281
+#: classes/commands/wp-security-user-security-commands.php:614
+msgid "View Blocked IPs"
+msgstr "عرض عناوين انترنت IPs المحظورة"
+
+#: admin/wp-security-list-registered-users.php:74
+msgid "blocked"
+msgstr "محظور"
+
+#: admin/wp-security-list-audit.php:345
+#: templates/wp-admin/brute-force/404-detection.php:104
+#: templates/wp-admin/brute-force/404-detection.php:113
+msgid "Export to CSV"
+msgstr "التصدير إلى ملف بصيغة CSV"
+
+#: templates/wp-admin/firewall/partials/ng.php:32
+msgid "This setting will implement the 6G security firewall protection mechanisms on your site which include the following things:"
+msgstr "يقوم هذا الإعداد بتطبيق آلية حماية جدار 6G الناري على الموقع التي تتضمن الأمور التالية:"
+
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:44
+msgid "This feature will also remove the \"X-Pingback\" header if it is present."
+msgstr "تقوم هذه الميزة بحذف ترويسة \"X-Pingback\" -إن وجدت-"
+
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:43
+msgid "The feature will still allow XMLRPC functionality on your site but will disable the pingback methods."
+msgstr "تقوم هذه الميزة بتعطيل طرق التنبيهات \"pingback \" مع إبقاء عمل وظيفة XMLRPC في الموقع."
+
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:28
+msgid "Leave this feature disabled and use the feature below if you want pingback protection but you still need XMLRPC."
+msgstr "اترك هذه الميزة معطلة واستخدام الميزة أدناه، إذا أردت تفعيل ميزة حماية التنبيهات pingback مع إبقاء عمل وظيفة XMLRPC."
+
+#: templates/wp-admin/firewall/partials/xmlrpc-warning-notice.php:8
+msgid "If you still need XMLRPC then uncheck the \"Completely Block Access To XMLRPC\" checkbox and enable only the \"Disable Pingback Functionality From XMLRPC\" checkbox."
+msgstr "إذا كنت بحاجة إلى وظيفة XMLRPC، قم بتعطيل \"Completely Block Access To XMLRPC\"، وقم بتفعيل فقط خيار \"تعطيل وظيفة التنبيهات \"Pingback\" في XMLRPC\"."
+
+#: templates/wp-admin/scanner/malware-scan.php:18
+msgid "We provide advice for malware cleanup"
+msgstr "نقدم نصائح لتنظيف البرمجيات الضارة"
+
+#: templates/wp-admin/scanner/file-change-detect.php:143
+msgid "Enter one or more email addresses on a new line."
+msgstr "قم بإدخال كل عنوان بريد إلكتروني على سطر مستقل."
+
+#. translators: %s: Old definition.
+#: admin/wp-security-database-menu.php:419
+msgid "Update of the following MySQL view definition failed: %s"
+msgstr "فشل في تحديث تعاريف عرض MySQL التالية: %s"
+
+#: admin/wp-security-database-menu.php:396
+msgid "Checking for MySQL tables of type \"view\"....."
+msgstr "التحقق من جداول MySQL الخاصة بنوع \"عرض\"....."
+
+#: templates/wp-admin/dashboard/permanent-block.php:4
+msgid "NOTE: This feature does NOT use the .htaccess file to permanently block the IP addresses so it should be compatible with all web servers running WordPress."
+msgstr "ملاحظة: لا تستخدم هذه الميزة ملف .htaccess للقيام بالحظر الدائم لعناوين الانترنت IPs، ولذلك فهي متوافقة مع كل برامج الخوادم التي تشغل ووردبريس."
+
+#: templates/wp-admin/dashboard/permanent-block.php:4
+msgid "This tab displays the list of all permanently blocked IP addresses."
+msgstr "في هذا التبويب: يتم عرض قائمة عناوين الانترنت IPs المحظورة بشكل دائم."
+
+#: admin/wp-security-dashboard-menu.php:324
+msgid "Wanna know more about the developers behind this plugin?"
+msgstr "هل تود معرفة المزيد حول مطوري هذه الإضافة؟"
+
+#: templates/wp-admin/brute-force/rename-login.php:34
+msgid "NOTE: If you are hosting your site on WPEngine or a provider which performs server caching, you will need to ask the host support people to NOT cache your renamed login page."
+msgstr "ملاحظة: إذا كان مزود الاستضافة الخاصة بك هو WPEngine  أو أي مزود يقوم بالتخزين المؤقت لملفات الخادم، فعليك إخبار فريق الدعم لهذا المزود بعدم القيام بالتخزين المؤقت لصفحة تسجيل الدخول الجديدة."
+
+#: admin/wp-security-dashboard-menu.php:468
+#: admin/wp-security-list-audit.php:194
+#: admin/wp-security-list-locked-ip.php:127
+#: classes/commands/wp-security-log-commands.php:179
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:821
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1097
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:1062
+#: other-includes/wp-security-rename-login-feature.php:1188
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: admin/wp-security-list-registered-users.php:90
+#: classes/wp-security-onboarding.php:180
+#: classes/wp-security-onboarding.php:539
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:825
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1101
+#: other-includes/wp-security-rename-login-feature-pre-6-6.php:1066
+#: other-includes/wp-security-rename-login-feature.php:1192
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#. Description of the plugin
+#: wp-security.php
+msgid "All round best WordPress security plugin!"
+msgstr "أفضل إضافة شاملة مختصة بحماية ووردبريس!"
+
+#: wp-security.php:43
+msgid "All In One WP Security"
+msgstr "إضافة حماية ووردبريس الكل في واحد"
+
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:101
+msgid "Take note of the IP addresses you want blocked and ask the superadmin to add these to the blacklist using the \"Blacklist Manager\" on the main site."
+msgstr "اكتب عناوين الانترنت IPs التي تريد حظرها واطلب من superadmin إضافة هذه العناوين إلى القائمة السوداء باستخدام \"مدير القائمة السوداء\" على الموقع الرئيسي."
+
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:101
+msgid "Only the \"superadmin\" can block IP addresses from the main site."
+msgstr "يستطيع \"superadmin\" فقط حظر عناوين الانترنت IPs من الموقع الأساسي."
+
+#: classes/wp-security-utility.php:263
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:101
+msgid "The plugin has detected that you are using a Multi-Site WordPress installation."
+msgstr "اكتشفت هذه الإضافة أنك تستخدم موقع ووردبريس متعدد المواقع."
+
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:71
+msgid "By inspecting the IP address data coming from spammers you will be in a better position to determine which addresses or address ranges you should block by adding them to the permanent block list."
+msgstr "بالتحقق من بيانات عناوين الانترنت IPs الخاصة بمرسلي البريد المزعج، سيتم تحسين أداء تحديد مجال عناوين الانترنت أو عناوين الانترنت IPs التي يجب أن تقوم حظرها من خلال إضافتها إلى القائمة السوداء."
+
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:71
+msgid "This information can be handy for identifying the most persistent IP addresses or ranges used by spammers."
+msgstr "تساعد هذه المعلومات في معرفة عناوين الانترنت IPs المستخدمة باستمرار من قبل مرسلي البريد المزعج."
+
+#: templates/wp-admin/settings/settings-file-operations.php:8
+msgid "For Example: If a settings item relies on the domain URL then it may not work correctly when imported into a site with a different domain."
+msgstr "على سبيل المثال: لن تعمل الإعدادات المعتمدة على اسم مجال الموقع عند استيرادها في موقع باسم مجال مختلف."
+
+#: templates/wp-admin/settings/settings-file-operations.php:6
+msgid "This can be handy if you wanted to save time by applying the settings from one site to another site."
+msgstr "يساعد ذلك في حفظ الوقت بنقل الإعدادات من موقع لآخر -إذا أردت-"
+
+#: classes/commands/wp-security-settings-commands.php:312
+msgid "Please choose a file to import your settings from."
+msgstr "يرجى اختيار ملف لاستعادة الإعدادات منه"
+
+#: templates/wp-admin/settings/wp-version-info.php:7
+msgid "The above meta information shows which version of WordPress your site is currently running and thus can help hackers or crawlers scan your site to see if you have an older version of WordPress or one with a known exploit."
+msgstr "توضح البيانات الوصفية أعلاه إصدار وردبريس الذي يعمل عليه موقعك حالياً، وقد يساعد ذلك القراصنة أو برامج الزحف على فحص موقعك لمعرفة ما إذا كان لديك إصدار أقدم من وردبريس أو إصدار آخر يحتوي على ثغرات أمنية."
+
+#: templates/wp-admin/settings/wp-config-file-operations.php:26
+msgid "wp-config file to restore from"
+msgstr "استعادة ملف wp-config من "
+
+#: templates/wp-admin/settings/wp-config-file-operations.php:21
+msgid "Restore from a backed up wp-config file"
+msgstr "الاستعادة من نسخة ملف wp-config الاحتياطية"
+
+#: templates/wp-admin/settings/wp-config-file-operations.php:12
+msgid "Save the current wp-config.php file"
+msgstr "حفظ ملف wp-config.php الحالي"
+
+#: templates/wp-admin/settings/wp-config-file-operations.php:7
+msgid "You can also restore your site's wp-config.php settings using a backed up wp-config.php file."
+msgstr "كما يمكنك استعادة إعدادات ملف wp-config.php باستخدام النسخة الاحتياطية من ملف wp-config.php."
+
+#: templates/wp-admin/settings/wp-config-file-operations.php:6
+msgid "This feature allows you to backup and save your currently active wp-config.php file should you need to re-use the the backed up file in the future."
+msgstr "تقوم هذه الميزة بالنسخ الاحتياطي والحفظ لملف wp-config.php المفعّل حالياً، الذي ربما تحتاج لاستعادته مستقبلاً."
+
+#: classes/commands/wp-security-settings-commands.php:215
+msgid "Please choose a wp-config.php file to restore from."
+msgstr "يرجى اختيار ملف wp-config.php لاستعادة الإعدادات منه."
+
+#: templates/wp-admin/settings/htaccess-file-operations.php:26
+msgid ".htaccess file to restore from"
+msgstr "الاستعادة من ملف .htaccess"
+
+#: templates/wp-admin/settings/htaccess-file-operations.php:21
+msgid "Restore from a backed up .htaccess file"
+msgstr "الاستعادة من نسخة ملف .htaccess الاحتياطية"
+
+#: templates/wp-admin/settings/htaccess-file-operations.php:12
+msgid "Save the current .htaccess file"
+msgstr "حفظ ملف .htaccess الحالي"
+
+#: templates/wp-admin/settings/htaccess-file-operations.php:7
+msgid "You can also restore your site's .htaccess settings using a backed up .htaccess file."
+msgstr "يمكنك استعادة إعدادات ملف .htaccess من النسخة الاحتياطية لهذا الملف."
+
+#: templates/wp-admin/settings/htaccess-file-operations.php:6
+msgid "This feature allows you to backup and save your currently active .htaccess file should you need to re-use the the backed up file in the future."
+msgstr "تقوم هذه الميزة بالنسخ الاحتياطي والحفظ لملف .htaccess المفعّل حالياً، التي ربما تحتاج لاستعادته مستقبلاً."
+
+#: templates/wp-admin/settings/htaccess-file-operations.php:5
+msgid "Your \".htaccess\" file is a key component of your website's security and it can be modified to implement various levels of protection mechanisms."
+msgstr "يعد ملف \".htaccess\" عنصراً أساسياً في أمان موقعك الإلكتروني ويمكن تعديله لتنفيذ مختلف مستويات طرق الحماية."
+
+#: classes/commands/wp-security-settings-commands.php:141
+msgid "htaccess backup failed."
+msgstr "فشل في النسخ الاحتياطي لملف htaccess"
+
+#: templates/wp-admin/settings/general-settings.php:45
+msgid "If you think that some plugin functionality on your site is broken due to a security feature you enabled in this plugin, then use the following option to turn off all the security features of this plugin."
+msgstr "إذا كنت تعتقد أن بعض وظائف الإضافة على موقعك معطلة بسبب ميزة حماية تم تمكينها في هذه الإضافة، فقم باستخدام الخيار التالي لتعطيل جميع ميزات الحماية لهذه الإضافة."
+
+#: templates/wp-admin/settings/general-settings.php:34
+#: templates/wp-admin/settings/wp-config-file-operations.php:16
+msgid "Backup wp-config.php file"
+msgstr "النسخ الاحتياطي لملف wp-config.php"
+
+#: templates/wp-admin/settings/general-settings.php:33
+#: templates/wp-admin/settings/htaccess-file-operations.php:16
+msgid "Backup .htaccess file"
+msgstr "النسخ الاحتياطي لملف .htaccess"
+
+#: templates/wp-admin/settings/general-settings.php:32
+msgid "Backup your database"
+msgstr "النسخ الاحتياطي لقاعدة البيانات"
+
+#: admin/wp-security-settings-menu.php:56
+msgid "Import/Export"
+msgstr "استيراد/تصدير"
+
+#: templates/wp-admin/filesystem-security/frames.php:15
+msgid "This feature allows you to prevent other sites from displaying any of your content via a frame or iframe."
+msgstr "تقوم هذا الميزة بمنع المواقع الأخرى من عرض محتوى موقع الويب الخاص بك ضمن frame أو iframe."
+
+#: templates/wp-admin/filesystem-security/copy-protection.php:14
+msgid "This feature allows you to disable the ability to select and copy text from your front end."
+msgstr "تقوم هذه الميزة بمنع تحديد ونسخ النص من الواجهة الأمامية لموقع الويب الخاص بك."
+
+#: admin/wp-security-filesystem-menu.php:49
+msgid "Frames"
+msgstr "إطارات المحتوى"
+
+#: templates/wp-admin/tools/visitor-lockout.php:34
+msgid "Enter a message you wish to display to visitors when your site is in maintenance mode."
+msgstr "يرجى إدخال الرسالة التي تودّ عرضها للزوار عند وضع موقع الويب الخاص بك في وضع الصيانة."
+
+#: templates/wp-admin/tools/visitor-lockout.php:9
+msgid "Locking your site down to general visitors can be useful if you are investigating some issues on your site or perhaps you might be doing some maintenance and wish to keep out all traffic for security reasons."
+msgstr "يكون قفل الواجهة الأمامية للموقع مفيداً جداً في حالة القيام باكتشاف وحل بعض المشاكل في الموقع، أو في حالة القيام ببعض عمليات الصيانة والتطوير أو رغبتك بإيقاف زيارة الجمهور العام للموقع لأسباب أمنية."
+
+#: templates/wp-admin/tools/visitor-lockout.php:8
+msgid "This feature allows you to put your site into \"maintenance mode\" by locking down the front-end to all visitors except logged in users with super admin privileges."
+msgstr "تقوم هذه الميزة بوضع الموقع في \"وضع الصيانة\" بقفل الواجهة الأمامية الأمامية للموقع أمام جميع الزائرين عدا مديري الموقع."
+
+#: admin/wp-security-list-registered-users.php:211
+msgid "Your account is now active"
+msgstr "حسابك مفعّل الآن"
+
+#: admin/wp-security-list-comment-spammer-ip.php:97
+#: admin/wp-security-list-locked-ip.php:177
+#: admin/wp-security-list-locked-ip.php:186
+#: admin/wp-security-list-permanent-blocked-ip.php:109
+#: admin/wp-security-list-registered-users.php:130
+#: admin/wp-security-list-registered-users.php:138
+#: admin/wp-security-list-registered-users.php:146
+msgid "Please select some records using the checkboxes"
+msgstr "يرجى اختيار بعض القيود بتحديد المربعات المصغرة."
+
+#: templates/wp-admin/tools/custom-htaccess.php:52
+msgid "Enter your custom .htaccess rules/directives."
+msgstr "قم بإدخال قواعد/تعليمات .htaccess المخصصة."
+
+#: templates/wp-admin/tools/custom-htaccess.php:21
+msgid "If you break your site you will need to access your server via FTP or something similar and then edit your .htaccess file and delete the changes you made."
+msgstr "إذا تعطل الموقع، قم بالوصول إلى ملفات الخادم عبر FTP أو ما يماثله، ثم احذف التغييرات التي قمت بها في .htaccess."
+
+#: templates/wp-admin/tools/custom-htaccess.php:20
+msgid "It is your responsibility to ensure that you are entering the correct code!"
+msgstr "من مسؤوليتك تأكيد إدخال التعليمات الصحيحة!"
+
+#: templates/wp-admin/tools/custom-htaccess.php:19
+msgid "Incorrect .htaccess rules or directives can break or prevent access to your site."
+msgstr "قد تسبب قواعد وتعليمات .htaccess الخاطئة عدم إمكانية الوصول إلى الموقع."
+
+#: templates/wp-admin/tools/custom-htaccess.php:9
+msgid "It is useful for when you want to tweak our existing firewall rules or when you want to add your own."
+msgstr "يكون هذا مفيد في حالة أردت إضافة قواعد الجدار الناري الخاصة بك أو تعديل القواعد الموجودة للتوّ."
+
+#: templates/wp-admin/tools/custom-htaccess.php:8
+msgid "This feature can be used to apply your own custom .htaccess rules and directives."
+msgstr "تستخدم هذه الميزة لإضافة قواعد وتعليمات مخصصة إلى ملف .htaccess."
+
+#: templates/wp-admin/brute-force/404-detection.php:56
+msgid "Check this if you want to enable the logging of 404 events"
+msgstr "قم بتحديد هذا إذا أردت تفعيل سجلات أحداث 404."
+
+#: templates/wp-admin/brute-force/404-detection.php:8
+msgid "Such behaviour can mean that a hacker might be trying to find a particular page or URL for sinister reasons."
+msgstr "يعني هذا السلوك أن القراصنة يحاولون إيجاد صفحة معينة أو إيجاد رابطها لأسباب شريرة."
+
+#: templates/wp-admin/brute-force/404-detection.php:7
+msgid "However, in some cases you may find many repeated 404 errors which occur in a relatively short space of time and from the same IP address which are all attempting to access a variety of non-existent page URLs."
+msgstr "ولكن في بعض الحالات تحدث أخطاء 404 بشكل متكرر في فترات متقاربة نسبياً بوساطة نفس عنوان الانترنت IP، الذي يحاول الوصول إلى روابط صفحات متنوعة على الموقع."
+
+#: templates/wp-admin/brute-force/404-detection.php:5
+msgid "A 404 or Not Found error occurs when somebody tries to access a non-existent page on your website."
+msgstr "يحدث خطأ 404 أو خطأ الصفحة غير موجودة عندما يحاول الشخص الوصول إلى صفحة غير موجودة في موقع الويب الخاص بك."
+
+#: templates/wp-admin/filesystem-security/partials/prevent-hotlinks.php:9
+msgid "This feature will prevent people from directly hotlinking images from your site's pages by writing some directives in your .htaccess file."
+msgstr "تقوم هذه الميزة بمنع الأشخاص من القيام بالربط الساخن لصور موقع الويب الخاص بك بإضافة تعليمات إلى ملف .htaccess."
+
+#: templates/wp-admin/filesystem-security/partials/prevent-hotlinks.php:8
+msgid "Due to the fact that the image being displayed on the other person's site is coming from your server, this can cause leaking of bandwidth and resources for you because your server has to present this image for the people viewing it on someone elses's site."
+msgstr "في الواقع يستهلك عرض صورة موجودة على الخادم الخاص بك على موقع شخص آخر من حجم البيانات المنقولة وموارد الخادم الخاص بك، لأنّ على الخادم الخاص بك توفير هذه الصورة لزائري موقع ذلك الشخص."
+
+#: classes/wp-security-utility-file.php:464
+#: templates/wp-admin/filesystem-security/partials/file-permissions-table.php:5
+#: templates/wp-admin/filesystem-security/partials/file-permissions-table.php:21
+msgid "Name"
+msgstr "الاسم"
+
+#: templates/wp-admin/firewall/partials/fake-googlebots.php:38
+msgid "If the bot fails the checks then the plugin will mark it as being a fake Googlebot and it will block it"
+msgstr "إذا تم التحقق أنه بوت مزيف، سيتم تعليمه كبوت مزيف والقيام بحظره."
+
+#: templates/wp-admin/firewall/partials/fake-googlebots.php:37
+msgid "It will then perform a few tests to verify if the bot is legitimately from Google and if so it will allow the bot to proceed."
+msgstr "بعد ذلك يتم إجراء بعض من الاختبارات للتأكد أنّه بوت غوغل فعلي. إن كان كذلك سيسمح للبوت بالزيارة."
+
+#: templates/wp-admin/firewall/partials/fake-googlebots.php:36
+msgid "This feature will check if the User Agent information of a bot contains the string \"Googlebot\"."
+msgstr "تقوم هذه الميزة بالتحقق من احتواء معلومات وكيل المستخدم الخاصة بالبوت على اسم \"Googlebot\"."
+
+#: templates/wp-admin/firewall/partials/fake-googlebots.php:14
+msgid "All other bots from other organizations such as \"Yahoo\", \"Bing\" etc will not be affected by this feature."
+msgstr "لن تتأثر البوتات من المنظمات الأخرى مثل الياهو أو البنغ بهذه الميزة."
+
+#: templates/wp-admin/firewall/partials/fake-googlebots.php:4
+msgid "This feature allows you to block bots which are impersonating as a Googlebot but actually aren't. (In other words they are fake Google bots)"
+msgstr "تقوم هذه الميزة بحظر البوتات المنتحلة عمل Googlebot وفي الواقع ليس لها علاقة بالغوغل. (بعبارات أبسط هذه بوتات غوغل مزيفة)"
+
+#: templates/wp-admin/firewall/partials/internet-bots.php:14
+msgid "Although most of the bots out there are relatively harmless sometimes website owners want to have more control over which bots they allow into their site."
+msgstr "بالرغم أن معظم البوتات غير ضارة، ولكن في بعض الأحيان يرغب مديري المواقع بتحديد البوتات المسموح لها بزيارة الموقع."
+
+#. translators: s%: Wiki URL.
+#: templates/wp-admin/firewall/partials/internet-bots.php:10
+msgid "%s?"
+msgstr "%s?"
+
+#: templates/wp-admin/firewall/5g.php:25
+#: templates/wp-admin/firewall/partials/ng.php:37
+msgid "....and much more."
+msgstr "والكثير ...."
+
+#: templates/wp-admin/firewall/5g.php:24
+#: templates/wp-admin/firewall/partials/ng.php:36
+msgid "4) Stop attackers from manipulating query strings by disallowing illicit characters."
+msgstr "4) منع القراصنة من التلاعب بسلاسل الاستعلام من خلال رفض المحارف غير المسموحة."
+
+#: templates/wp-admin/firewall/5g.php:23
+#: templates/wp-admin/firewall/partials/ng.php:35
+msgid "3) Guard against the common patterns and specific exploits in the root portion of targeted URLs."
+msgstr "3) الحماية من الأنماط الشائعة أو الثغرات المحددة في جذر الروابط المستهدفة."
+
+#: templates/wp-admin/firewall/5g.php:22
+#: templates/wp-admin/firewall/partials/ng.php:34
+msgid "2) Block malicious encoded URL characters such as the \".css(\" string."
+msgstr "2) حظر محارف الروابط الخبيثة مثل سلسلة  \".css(\"."
+
+#: templates/wp-admin/firewall/5g.php:21
+#: templates/wp-admin/firewall/partials/ng.php:33
+msgid "1) Block forbidden characters commonly used in exploitative attacks."
+msgstr "1) حظر المحارف الممنوعة التي تستخدم بشكل شائع في الهجمات الاستغلالية."
+
+#: templates/wp-admin/firewall/5g.php:20
+msgid "This setting will implement the 5G security firewall protection mechanisms on your site which include the following things:"
+msgstr "يقوم هذا الإعداد بتطبيق آلية حماية جدار 5G الناري على الموقع التي تتضمن الأمور التالية:"
+
+#: templates/wp-admin/firewall/partials/advanced-character-filter.php:23
+msgid "NOTE: Some strings for this setting might break some functionality."
+msgstr "ملاحظة: قد تقوم بعض السلاسل لهذه الميزة بتعطيل بعض وظائف الموقع."
+
+#: templates/wp-admin/firewall/partials/advanced-character-filter.php:22
+msgid "This setting matches for common malicious string patterns and exploits and will produce a 403 error for the hacker attempting the query."
+msgstr "يقوم هذا الإعداد بمقارنة أنماط السلاسل الخبيثة الشائعة، وعرض خطأ 403 عندما يحاول القراصنة القيام بالاستعلام."
+
+#: templates/wp-admin/firewall/partials/advanced-character-filter.php:21
+msgid "This is an advanced character string filter to prevent malicious string attacks on your site coming from Cross Site Scripting (XSS)."
+msgstr "تقوم ميزة التصفية المتقدمة لسلاسل المتقدمة بمنع هجمات السلاسل الخبيئة في الموقع والتي تأتي من هجمات XSS."
+
+#: templates/wp-admin/firewall/partials/bad-query-strings.php:22
+msgid "NOTE: Some of these strings might be used for plugins or themes and hence this might break some functionality."
+msgstr "ملاحظة: قد تستخدم بعض الإضافات أو القوالب هذه السلاسل، وبالتالي قد يؤدي تفعيل هذه الميزة إلى تعطيل بعض وظائف الموقع."
+
+#: templates/wp-admin/firewall/partials/bad-query-strings.php:16
+msgid "This will help protect you against malicious queries via XSS."
+msgstr "يساعد هذا في الحماية من الاستعلام الخبيث عبر هجمات حقن الشيفرة المصدريّة عبر موقع وسيط أو ما يعرف بــِ XSS."
+
+#: templates/wp-admin/firewall/partials/proxy-comment.php:21
+msgid "This setting will deny any requests that use a proxy server when posting comments."
+msgstr "يقوم هذا الإعداد برفض الطلبات التي تستخدم خادم وكيل عند إضافة التعليقات."
+
+#: templates/wp-admin/firewall/partials/disable-trace.php:26
+msgid "Disabling trace and track on your site will help prevent HTTP Trace attacks."
+msgstr "يساعد تعطيل التعقيبات (trace and track) في منع هجمات تعقب HTTP."
+
+#: templates/wp-admin/firewall/partials/disable-trace.php:24
+msgid "This hacking technique is usually used together with cross site scripting attacks (XSS)."
+msgstr "يتم استخدام طريقة الاختراق هذه مع هجمات حقن الشيفرة المصدريّة عبر موقع وسيط (XSS)."
+
+#: templates/wp-admin/firewall/partials/disable-trace.php:22
+msgid "HTTP Trace attack (XST) can be used to return header requests and grab cookies and other information."
+msgstr "يُمكن أن يتم استخدام هجوم تعقب HTTP أو هجوم XST لاسترداد ترويسة الطلبات والحصول على الكوكيز ومعلومات أخرى."
+
+#: templates/wp-admin/firewall/partials/listing-directory-contents.php:24
+msgid "This feature will prevent the listing of contents for all directories."
+msgstr "تقوم هذه الميزة بمنع سرد محتويات المسارات."
+
+#: templates/wp-admin/firewall/partials/listing-directory-contents.php:22
+msgid "By default, an Apache server will allow the listing of the contents of a directory if it doesn't contain an index.php file."
+msgstr "بشكل افتراضي، يقوم خادم الأباتشي بسرد محتويات المسار أو المجلد الذي لا يحتوي على ملف index.php بداخله."
+
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:27
+msgid "NOTE: You should only enable this feature if you are not currently using the XML-RPC functionality on your WordPress installation."
+msgstr "ملاحظة: قم بتفعيل هذه الميزة في حالة عدم استخدام وظيفة XML-RPC  في موقع ووردبريس حالياً."
+
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:26
+msgid "Apart from the security protection benefit, this feature may also help reduce load on your server, particularly if your site currently has a lot of unwanted traffic hitting the XML-RPC API on your installation."
+msgstr "بالإضافة إلى فائدة الحماية التي تقدمها هذه الميزة، فإنّها أيضاً تساعد بتخفيف الضغط على الخادم، وخصوصاً في حالة وجود الكثير من زيارات الموقع غير المرغوبة التي تستهدف XML-RPC API في موقع الويب الخاص بك."
+
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:25
+msgid "3) Scanning ports in internal networks to get info from various hosts."
+msgstr "3) تفحص المنافذ في الشبكات الداخلية للحصول على معلومات من أكثر من مستضيف."
+
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:24
+msgid "2) Hacking internal routers."
+msgstr "2) اختراق الموجهات الداخلية."
+
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:23
+msgid "1) Denial of Service (DoS) attacks"
+msgstr "1) هجوم حجب الخدمة (DoS)."
+
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:22
+msgid "Hackers can exploit various vulnerabilities in the WordPress XML-RPC API in a number of ways such as:"
+msgstr "يقوم القراصنة باستغلال ثغرات متنوعة في XML-RPC API الخاص بموقع ووردبريس باستخدام طرق متعددة مثل: "
+
+#: templates/wp-admin/firewall/partials/basic-firewall-settings.php:27
+msgid "You are still advised to take a backup of your active .htaccess file just in case."
+msgstr "بالرغم من ذلك، نوصي بأخذ نسخة احتياطية من ملف .htaccess الحالي احترازاً."
+
+#: templates/wp-admin/firewall/partials/basic-firewall-settings.php:26
+msgid "The above firewall features will be applied via your .htaccess file and should not affect your site's overall functionality."
+msgstr "سيتم تطبيق قواعد الجدار الناري أعلاه بوضعها في ملف .htaccess، ولن يؤثر ذلك على وظيفة عمل الموقع بشكل عام."
+
+#: templates/wp-admin/firewall/partials/basic-firewall-settings.php:25
+msgid "4) Protect your wp-config.php file by denying access to it."
+msgstr "4) حماية ملف wp-config.php من خلال رفض الوصول إليه."
+
+#: templates/wp-admin/firewall/partials/basic-firewall-settings.php:22
+msgid "2) Disable the server signature."
+msgstr "2) تعطيل توقيع الخادم."
+
+#: templates/wp-admin/firewall/partials/basic-firewall-settings.php:21
+msgid "1) Protect your htaccess file by denying access to it."
+msgstr "1) حماية ملف .htaccess من خلال رفض الوصول إليه."
+
+#: templates/wp-admin/firewall/partials/basic-firewall-settings.php:20
+msgid "This setting will implement the following basic firewall protection mechanisms on your site:"
+msgstr "تقوم هذه الإعدادات بتطبيق الآلية التالية لتحقيق حماية الجدار الناري في الموقع:"
+
+#: templates/wp-admin/filesystem-security/host-system-logs.php:19
+msgid "Enter your system log file name. (Defaults to error_log)"
+msgstr "قم بإدخال اسم ملف السجلات في الاستضافة الخاصة بك (الافتراضي: error_log )"
+
+#: templates/wp-admin/filesystem-security/host-system-logs.php:17
+msgid "Enter System Log File Name"
+msgstr "قم بإدخال اسم ملف سجل النظام"
+
+#: templates/wp-admin/filesystem-security/host-system-logs.php:5
+msgid "Depending on the nature and cause of the error or warning, your hosting server can create multiple instances of this file in numerous directory locations of your WordPress installation."
+msgstr "يقوم مزود الاستضافة بإنشاء نسخ متعددة من هذا الملف في مسارات متعددة في موقع ووردبريس حسب طبيعة وسبب الأخطاء والتحذيرات."
+
+#: templates/wp-admin/filesystem-security/host-system-logs.php:5
+msgid "Sometimes your hosting platform will produce error or warning logs in a file called \"error_log\"."
+msgstr "يقوم مزود الاستضافة في بعض الأحيان بتوليد سجلات التحذير والأخطاء في ملف يسمّى \"error_log\"."
+
+#: templates/wp-admin/filesystem-security/partials/php-file-editing.php:7
+msgid "This feature will disable the ability for people to edit PHP files via the dashboard."
+msgstr "تقوم هذه الميزة بتعطيل القدرة على تعديل ملفات PHP من خلال لوحة إدارة موقع ووردبريس."
+
+#: templates/wp-admin/filesystem-security/partials/php-file-editing.php:7
+msgid "This is often the first tool an attacker will use if able to login, since it allows code execution."
+msgstr "إذا استطاع القراصنة تسجيل الدخول بالموقع، ستكون هذه هي الأداة الأولى التي سيقومون باستخدامها، لأنّها تسمح بتنفيذ التعليمات البرمجية."
+
+#: classes/wp-security-utility-file.php:465
+#: templates/wp-admin/filesystem-security/partials/file-permissions-table.php:6
+#: templates/wp-admin/filesystem-security/partials/file-permissions-table.php:22
+msgid "File/Folder"
+msgstr "الملف/المجلد"
+
+#: templates/wp-admin/filesystem-security/file-permissions.php:5
+msgid "This feature will scan the critical WP core folders and files and will highlight any permission settings which are insecure."
+msgstr "تقوم هذه الميزة بتفحص أذونات مجلدات ملفات موقع ووردبريس الأساسية، وكما تقوم بتعليم إعدادات الأذونات غير الآمنة."
+
+#: templates/wp-admin/filesystem-security/file-permissions.php:5
+msgid "However, sometimes people or other plugins modify the various permission settings of certain core WP folders or files such that they end up making their site less secure because they chose the wrong permission values."
+msgstr "ولكن، في بعض الأحيان يقوم بعض الأشخاص أو الإضافات بالتعديل على إعدادات الأذونات المختلفة الخاصة بمجلدات وملفات أساس موقع ووردبريس، مما يقلل من حماية الموقع بسبب وضع قيم الأذونات الخاطئة لهذه الملفات أو المجلدات."
+
+#: templates/wp-admin/filesystem-security/file-permissions.php:5
+msgid "Your WP installation already comes with reasonably secure file permission settings for the filesystem."
+msgstr "يتم تثبيت ووردبريس بإعدادات أذونات آمنة ومعقولة لملفات موقع ووردبريس."
+
+#: templates/wp-admin/scanner/scan-result.php:20
+msgid "File"
+msgstr "الملف"
+
+#: templates/wp-admin/scanner/malware-scan.php:17
+msgid "Site response time monitoring"
+msgstr "مراقبة فترة استجابة الموقع"
+
+#: templates/wp-admin/scanner/malware-scan.php:16
+msgid "Site uptime monitoring"
+msgstr "مراقبة فترة تشغيل الموقع"
+
+#: templates/wp-admin/scanner/malware-scan.php:5
+msgid "Often when malware code has been inserted into your site you will normally not notice anything out of the ordinary based on appearances, but it can have a dramatic effect on your site's search ranking."
+msgstr "غالباً لن تلاحظ أي تغيير في موقع الويب عند حقن أي كود خبيث بالموقع، ولكن لذلك تأثير كبير على ترتيب الموقع في صفحة نتائج محرك البحث."
+
+#: templates/wp-admin/scanner/file-change-detect.php:127
+msgid "somedirectory"
+msgstr "somedirectory"
+
+#: templates/wp-admin/scanner/file-change-detect.php:125
+msgid "Example: If you want the scanner to ignore certain files in different directories or whole directories, then you would enter the following:"
+msgstr "مثال: إذا أردت أن يقوم الماسح بتجاهل ملفات معينة في مسارات مختلفة أو تجاهل المسارات كاملةَ، عليك إدخال التالي: "
+
+#: templates/wp-admin/scanner/file-change-detect.php:120
+msgid "Enter each file or directory on a new line which you wish to exclude from the file change detection scan."
+msgstr "قم بإدخال كل مسار الذي تريد استثنائه من عملية التفحص للكشف عن تغيير الملفات على سطر مستقل."
+
+#: templates/wp-admin/scanner/file-change-detect.php:101
+msgid "Enter each file type or extension on a new line which you wish to exclude from the file change detection scan."
+msgstr "قم بإدخال كل نوع أو امتداد من الملفات التي تريد استثنائها من عملية التفحص للكشف عن تغيير الملفات على سطر مستقل."
+
+#: templates/wp-admin/scanner/file-change-detect.php:93
+msgid "Set the value for how often you would like a scan to occur"
+msgstr "قم بتحديد قيمة عدد المرات القيام بعملية التفحص"
+
+#: templates/wp-admin/scanner/file-change-detect.php:10
+msgid "The \"File Change Detection Feature\" will notify you of any file change which occurs on your system, including the addition and deletion of files by performing a regular automated or manual scan of your system's files."
+msgstr "تقوم \"ميزة الكشف عن تغيير الملفات\" بإشعارك بأي تغيير ملف تم في نظامك، متضمناً الإضافة والحذف على أي ملف بوساطة القيام بعملية تفحص دورية تلقائية أو يدوية لملفات النظام."
+
+#: templates/wp-admin/scanner/file-change-detect.php:10
+msgid "Being informed of any changes in your files can be a good way to quickly prevent a hacker from causing damage to your website."
+msgstr "يعتبر معرفة وجود أي تغييرات بملفات موقع الويب الخاص بك طريقة جيدة لمنع القراصنة بشكل سريع من التسبب بأي ضرر في موقع الويب الخاص بك."
+
+#. translators: %s: New options table name.
+#: admin/wp-security-database-menu.php:326
+msgid "The %s table records which had references to the old DB prefix were updated successfully!"
+msgstr "تم تعديل قيود الجدول %s التي تشير إلى البادئة القديمة بنجاح!"
+
+#: admin/wp-security-database-menu.php:299
+msgid "The options table records which had references to the old DB prefix were updated successfully!"
+msgstr "تم تعديل قيود جدول options التي تشير إلى البادئة القديمة بنجاح!"
+
+#: admin/wp-security-database-menu.php:277
+msgid "wp-config.php file was updated successfully!"
+msgstr "تم تعديل ملف wp-config.php بنجاح!"
+
+#. translators: %s: DB table count.
+#: admin/wp-security-database-menu.php:257
+msgid "%s tables had their prefix updated successfully!"
+msgstr "تم تغيير بادئة الجداول %s بنجاح!"
+
+#. translators: %s: New DB table name.
+#: admin/wp-security-database-menu.php:254
+msgid "Please change the prefix manually for the above tables to: %s"
+msgstr "يرجى تغيير البادئة بشكل يدوي للجداول أعلاه: %s"
+
+#. translators: %s: Old DB table name.
+#: admin/wp-security-database-menu.php:243
+msgid "%s table name update failed"
+msgstr "فشل في تعديل اسم الجدول %s"
+
+#: admin/wp-security-database-menu.php:219
+msgid "A backup copy of your wp-config.php file was created successfully!"
+msgstr "تمت عملية النسخ الاحتياطي لملف wp-config.php بنجاح!"
+
+#: admin/wp-security-database-menu.php:207
+msgid "Starting DB prefix change operations....."
+msgstr "البدء بعملية تغيير بادئة قاعدة البيانات"
+
+#: admin/wp-security-database-menu.php:203
+msgid "Error - Could not get tables or no tables found!"
+msgstr "خطأ - لا يمكن الحصول على الجداول أو لم يتم العثور على أي جداول"
+
+#: templates/wp-admin/scanner/file-change-detect.php:91
+msgid "Weeks"
+msgstr "أسابيع"
+
+#: templates/wp-admin/scanner/file-change-detect.php:90
+msgid "Days"
+msgstr "أيام"
+
+#: templates/wp-admin/scanner/file-change-detect.php:89
+msgid "Hours"
+msgstr "ساعات"
+
+#: templates/wp-admin/database-security/database-prefix.php:48
+msgid "OR"
+msgstr "أو"
+
+#. translators: %s: Backup link.
+#: templates/wp-admin/database-security/database-prefix.php:21
+msgid "It is recommended that you perform a %s before using this feature"
+msgstr "يُوصى بالقيام بــِ  %s قبل استخدام هذه الميزة"
+
+#: templates/wp-admin/database-security/database-prefix.php:5
+msgid "This feature allows you to easily change the prefix to a value of your choice or to a random value set by this plugin."
+msgstr "تقوم هذه الميزة بتغيير بادئة قاعدة البيانات إلى قيمة من اختيارك أو إلى قيمة عشوائية مولدة بوساطة هذه الإضافة."
+
+#: templates/wp-admin/database-security/database-prefix.php:5
+msgid "One way to add a layer of protection for your DB is to change the default WordPress table prefix from \"wp_\" to something else which will be difficult for hackers to guess."
+msgstr "تكون أحد الطرق لحماية قاعدة بيانات ووردبريس بتغيير البادئة الافتراضية لقاعدة البيانات \"wp_\" لبادئة أخرى يُصعب على القراصنة تخمينها."
+
+#: admin/wp-security-database-menu.php:129
+msgid "Please enter a value for the DB prefix."
+msgstr "يرجى إدخال قيمة في بادئة قاعدة البيانات."
+
+#: classes/wp-security-debug.php:416
+msgid "On"
+msgstr "مفعّل"
+
+#: admin/wp-security-admin-init.php:89 admin/wp-security-admin-init.php:90
+#: admin/wp-security-settings-menu.php:23
+#: includes/simba-tfa/templates/user-settings.php:20
+#: templates/wp-admin/brute-force/captcha-settings.php:28
+#: templates/wp-admin/filesystem-security/file-protection.php:29
+#: wp-security.php:64
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: admin/wp-security-dashboard-menu.php:436
+#: admin/wp-security-dashboard-menu.php:536
+#: admin/wp-security-dashboard-menu.php:549
+msgid "Date"
+msgstr "التاريخ"
+
+#: admin/wp-security-dashboard-menu.php:673
+msgid "There are no IP addresses currently locked out."
+msgstr "لا يوجد أي عناوين الانترنت IPs محظورة حاليّاً."
+
+#: admin/wp-security-dashboard-menu.php:632
+msgid "There are no other users currently logged in."
+msgstr "لا يوجد أي مستخدمين مسجّلين الدخول حاليّاً في الموقع."
+
+#: admin/wp-security-dashboard-menu.php:631
+msgid "Number of users currently logged into your site (including you) is:"
+msgstr "عدد المستخدمين المسجلين الدخول حالياً في الموقع (متضمناً أنت):"
+
+#: admin/wp-security-dashboard-menu.php:647
+msgid "There are no other site-wide users currently logged in."
+msgstr "لا يوجد أي مستخدمين مسجّلين الدخول حاليّاً في الموقع."
+
+#. translators: %s: Users Online URL
+#. translators: %s: Number of locked out IPs
+#: admin/wp-security-dashboard-menu.php:661
+#: admin/wp-security-dashboard-menu.php:678
+msgid "Go to the %s menu to see more details"
+msgstr "الانتقال إلى قائمة %s لعرض التفاصيل"
+
+#: admin/wp-security-dashboard-menu.php:598
+#: admin/wp-security-dashboard-menu.php:616
+msgid "Your new WordPress login URL is now:"
+msgstr "رابط تسجيل الدخول الجديد: "
+
+#. translators: %s: Brute Force Login URL
+#. translators: %s: Rename Login URL
+#: admin/wp-security-dashboard-menu.php:597
+#: admin/wp-security-dashboard-menu.php:615
+msgid "The %s feature is currently active."
+msgstr "ميزة %s مفعّلة حاليّاً."
+
+#: admin/wp-security-dashboard-menu.php:450
+#: admin/wp-security-list-audit.php:195
+#: classes/commands/wp-security-log-commands.php:180
+#: classes/wp-security-debug.php:418
+msgid "IP"
+msgstr "عنوان الانترنت IP"
+
+#: admin/wp-security-dashboard-menu.php:549
+msgid "User"
+msgstr "المستخدم"
+
+#: admin/wp-security-dashboard-menu.php:339
+msgid "Below is the current status of the critical features that you should activate on your site to achieve a minimum level of recommended security"
+msgstr "فيما يلي الحالة الحالية للمزايا المهمة التي يجب تفعيلها في موقع الويب الخاص بك لتحقيق الحد الأدنى للحماية المُوصى بها"
+
+#: templates/wp-admin/brute-force/login-whitelist.php:5
+msgid "This feature will deny login access for all IP addresses which are not in your whitelist as configured in the settings below."
+msgstr "ترفض هذه الميزة الوصول لكل عناوين الانترنت IPs غير الموجودة في القائمة البيضاء كما يتم تعيينه في الإعدادات أدناه."
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:133
+msgid "If you do not use the WordPress password protection feature for your posts or pages then it is highly recommended that you leave this checkbox disabled."
+msgstr "يُوصى بشدة بعدم بتحديد هذا في حالة عدم استخدام ميزة حماية منشورات ووردبريس بكلمة مرور."
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:131
+msgid "Helpful Tip:"
+msgstr "نصيحة مساعدة"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:112
+msgid "Redirecting a hacker or malicious bot back to \"http://127.0.0.1\" is ideal because it deflects them back to their own local host and puts the load on their server instead of yours."
+msgstr "من المثالي توجيه القراصنة أو البوت الضار إلى \"http://127.0.0.1\" لأنّ ذلك يرجعهم إلى الخادم الخاص بهم وهذا يزيد من الضغط على الخادم الخاص بهم وليس الخادم المستضيف لموقع الويب الخاص بك."
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:110
+msgid "It's a good idea to not redirect attempted brute force login attempts to your site because it increases the load on your server."
+msgstr "من الجيد عدم إعادة توجيه محاولة تسجيل هجوم القوة العمياء إلى موقع الويب الخاص بك لأنّ ذلك يزيد من حجم الضغط على الخادم المستضيف لموقع الويب الخاص بك."
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:108
+msgid "Useful Tip:"
+msgstr "نصيحة مفيدة: "
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:106
+msgid "This field will default to: http://127.0.0.1 if you do not enter a value."
+msgstr "القيمة الافتراضية للحقل: http://127.0.0.1 في حالة عدم إدخالك لأي قيمة."
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:97
+msgid "Specify a URL to redirect a hacker to when they try to access your WordPress login page."
+msgstr "قم بتحديد رابط ليتم إعادة توجيه القراصنة إليه عند محاولته الوصول إلى صفحة تسجيل الدخول."
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:93
+msgid "Re-direct URL"
+msgstr "رابط إعادة التوجيه"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:79
+msgid "Any person trying to access your login page who does not have the special cookie in their browser will be automatically blocked."
+msgstr " بشكل أتوماتيكي سيتم حظر أي شخص ممن يحاول تسجيل الدخول بموقع الويب الخاص بك ولا يملك سجل الكوكيز المعيّن في متصفحه."
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:71
+msgid "1) Enable the checkbox."
+msgstr "1) تحديد المربع."
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:69
+msgid "To use this feature do the following:"
+msgstr "لاستخدام هذه الميزة، قم بالتالي: "
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:67
+msgid "This feature will deny access to your WordPress login page for all people except those who have a special cookie in their browser."
+msgstr "تقوم هذه الميزة برفض الوصول لصفحة تسجيل الدخول لأولئك الأشخاص الذين ليس لهم سجل كوكيز معيّن في متصفحاتهم. "
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:6
+msgid "Due to the fact that at any one time there may be many concurrent login attempts occurring on your site via malicious automated robots, this also has a negative impact on your server's memory and performance."
+msgstr "قد يحدث عدة محاولات متزامنة لتسجيل الدخول في موقع الويب الخاص بك من قبل الروبوتات المأتمتة الضارّة، ولهذا تأثير سلبي على أداء وذاكرة الخادم المستضيف لموقع الويب الخاص بك."
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:6
+msgid "A Brute Force Attack is when a hacker tries many combinations of usernames and passwords until they succeed in guessing the right combination."
+msgstr "يكون هجوم القوة العمياء عندما يحاول القراصنة بتخمين مجموعات من أسماء المستخدمين وكلمات المرور حتى ينجحون بتخمين اسم المستخدم وكلمة المرور الصحيحين."
+
+#: classes/commands/wp-brute-force-commands.php:123
+msgid "You have successfully saved cookie based brute force prevention feature settings."
+msgstr "تم حفظ إعدادات ميزة منع هجوم القوة العمياء بالاعتماد على سجل الكوكيز بنجاح."
+
+#: classes/commands/wp-brute-force-commands.php:118
+msgid "simply remember to add a \"?%s=1\" to your current site URL address."
+msgstr "بكل بساطة تذكّر إضافة \"?%s=1\" لرابط موقع الويب الخاص بك الحالي."
+
+#: classes/commands/wp-brute-force-commands.php:117
+msgid "It is important that you save this URL value somewhere in case you forget it, OR,"
+msgstr "من الضروري حفظ هذا الرابط في مكان ما في حالة نسيانه، أو"
+
+#: classes/commands/wp-brute-force-commands.php:115
+msgid "From now on you will need to log into your WP Admin using the following URL:"
+msgstr "من الآن وصاعداً، عليك تسجيل الدخول بموقع الويب الخاص بك باستخدام الرابط الآتي: "
+
+#: classes/commands/wp-brute-force-commands.php:114
+msgid "You have successfully enabled the cookie based brute force prevention feature"
+msgstr "تم تفعيل ميزة منع هجوم القوة العمياء المعتمد سجل الكوكيز بنجاح."
+
+#: templates/wp-admin/brute-force/partials/rename-login-notice.php:6
+msgid "Your current login URL is:"
+msgstr "رابط صفحة تسجيل الدخول الحالي: "
+
+#: templates/wp-admin/brute-force/partials/rename-login-notice.php:5
+msgid "Your WordPress login page URL has been renamed."
+msgstr "تم تغيير رابط صفحة تسجيل الدخول."
+
+#: templates/wp-admin/brute-force/rename-login.php:11
+msgid "You may also be interested in the following alternative brute force prevention features:"
+msgstr "قد تكون مهتماً أيضاً بأحد الطرق البديلة التالية لمنع هجوم القوة العمياء:"
+
+#. translators: %s wp-login.php in bold
+#: templates/wp-admin/brute-force/rename-login.php:5
+msgid "By doing this, malicious bots and hackers will not be able to access your login page because they will not know the correct login page URL."
+msgstr "عند قيامك بهذا ستمنع كل البوتات الضارّة والقراصنة من الوصول لصفحة تسجيل الدخول، لإنّهم لن يعرفوا الرابط الصحيح لصفحة تسجيل الدخول."
+
+#. translators: %s wp-login.php in bold
+#: templates/wp-admin/brute-force/rename-login.php:5
+msgid "Normally if you wanted to login to WordPress you would type your site's home URL followed by wp-login.php."
+msgstr "عادةً ما تُدخل رابط موقع الويب الخاص بك الرئيسي متبوعاً بـــِ wp-login.php لتسجيل الدخول بموقع ووردبريس."
+
+#. translators: %s wp-login.php in bold
+#: templates/wp-admin/brute-force/rename-login.php:5
+msgid "An effective Brute Force prevention technique is to change the default WordPress login page URL."
+msgstr "يعتبر تغيير رابط صفحة تسجيل الدخول الافتراضية طريقة فعّالة لمنع هجمات القوة العمياء."
+
+#: classes/commands/wp-brute-force-commands.php:36
+msgid "You cannot use the value \"wp-admin\" for your login page slug."
+msgstr "لا يمكنك استخدام قيمة \"wp-admin\" كاسم لطيف لصفحة تسجيل الدخول."
+
+#: classes/commands/wp-brute-force-commands.php:32
+msgid "Please enter a value for your login page slug."
+msgstr "يرجى إدخال الاسم اللطيف لصفحة تسجيل الدخول"
+
+#: admin/wp-security-brute-force-menu.php:56
+msgid "Honeypot"
+msgstr "مصائد الروبوتات"
+
+#: includes/simba-tfa/includes/tfa_frontend.php:138
+#: includes/simba-tfa/includes/tfa_frontend.php:152
+msgid "Save Settings"
+msgstr "حفظ الإعدادات"
+
+#: templates/wp-admin/firewall/block-and-allow-lists.php:75
+msgid "Example 2 - A list of more than 1 user agent strings to block"
+msgstr "مثال 2 - حظر قائمة أسماء وكلاء المستخدم"
+
+#: templates/wp-admin/firewall/block-and-allow-lists.php:73
+msgid "Example 1 - A single user agent string to block:"
+msgstr "مثال 1- حظر اسم وكيل المستخدم واحد: "
+
+#: templates/wp-admin/firewall/block-and-allow-lists.php:72
+msgid "Each user agent string must be on a new line."
+msgstr "يجب إدراج كل اسم وكيل المستخدم على سطر مستقل."
+
+#: templates/wp-admin/firewall/block-and-allow-lists.php:67
+msgid "Enter one or more user agent strings."
+msgstr "إدخال اسم وكيل المستخدم واحد أو أكثر."
+
+#: templates/info/ip-address-ip-range-info.php:11
+msgid "Example 3: 195.*.*.*"
+msgstr "مثال 3: 195.*.*.*"
+
+#: templates/info/ip-address-ip-range-info.php:10
+msgid "Example 2: 195.47.*.*"
+msgstr "مثال 2: 195.47.*.*"
+
+#: templates/info/ip-address-ip-range-info.php:9
+msgid "Example 1: 195.47.89.*"
+msgstr "مثال 1: 195.47.89.*"
+
+#: templates/info/ip-address-ip-range-info.php:5
+msgid "Each IP address must be on a new line."
+msgstr "يجب إدراج كل عنوان انترنت IP على سطر مستقل"
+
+#: templates/wp-admin/firewall/block-and-allow-lists.php:68
+#: templates/wp-admin/firewall/partials/upgrade-unsafe-http-calls.php:35
+msgid "More Info"
+msgstr "المزيد من المعلومات"
+
+#: templates/wp-admin/firewall/block-and-allow-lists.php:57
+#: templates/wp-admin/firewall/partials/allowlist.php:13
+msgid "Enter one or more IP addresses or IP ranges."
+msgstr "إدخال عنوان انترنت واحد IP أو عدة عناوين انترنت IPs أو مجال معين من عناوين الانترنت IPs:"
+
+#: templates/wp-admin/firewall/block-and-allow-lists.php:6
+msgid "This feature will deny total site access for users which have IP addresses or user agents matching those which you have configured in the settings below."
+msgstr "تقوم هذه الميزة برفض وصول المستخدمين أصحاب عناوين الانترنت أو وكلاء المستخدم المتطابقة مع العناوين ووكلاء المستخدم التي تم تعيينها في الإعدادات التالية."
+
+#: admin/wp-security-admin-init.php:146 admin/wp-security-admin-init.php:147
+#: admin/wp-security-filescan-menu.php:25
+#: classes/grade-system/wp-security-feature-item-manager.php:922
+msgid "Scanner"
+msgstr "عمليات التفحص والبحث"
+
+#: admin/wp-security-admin-init.php:130 admin/wp-security-admin-init.php:131
+msgid "Brute Force"
+msgstr "هجوم القوة العمياء"
+
+#: admin/wp-security-admin-init.php:122 admin/wp-security-admin-init.php:123
+#: admin/wp-security-firewall-menu.php:22
+#: classes/grade-system/wp-security-feature-item-manager.php:913
+#: classes/wp-security-onboarding.php:356
+#: templates/wp-admin/dashboard/may-also-like.php:144
+#: templates/wp-admin/firewall/partials/firewall-setup.php:13
+msgid "Firewall"
+msgstr "الجدار الناري"
+
+#: admin/wp-security-admin-init.php:105 admin/wp-security-admin-init.php:106
+msgid "Database Security"
+msgstr "حماية قاعدة البيانات"
+
+#. translators: 1: Current page, 2: Total pages
+#: admin/general/wp-security-ajax-data-table.php:927
+#: admin/general/wp-security-list-table.php:940
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%1$s من %2$s"
+
+#. translators: 1: month name, 2: 4-digit year
+#: admin/general/wp-security-ajax-data-table.php:677
+#: admin/general/wp-security-list-table.php:684
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: admin/general/wp-security-ajax-data-table.php:539
+#: admin/general/wp-security-list-table.php:530
+msgid "Apply"
+msgstr "تطبيق"
+
+#: admin/general/wp-security-ajax-data-table.php:393
+#: admin/general/wp-security-list-table.php:382
+msgid "No items found."
+msgstr "لم يتم العثور على أي شيء."
+
+#: admin/wp-security-admin-init.php:81 admin/wp-security-admin-init.php:82
+#: admin/wp-security-dashboard-menu.php:19
+#: admin/wp-security-dashboard-menu.php:30
+msgid "Dashboard"
+msgstr "لوحة التحكم الرئيسية"
+
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:42
+msgid "NOTE: If you use Jetpack or the Wordpress iOS or other apps then you should enable this feature but leave the \"Completely Block Access To XMLRPC\" checkbox unchecked."
+msgstr "ملاحظة: عليك تفعيل هذه الميزة في حالة استخدام إضافة Jetpack أو the WordPress iOS أو أي إضافات أخرى، كما عليك تعطيل ميزة \"رفض الوصول إلى XMLRP بشكل كامل\""
+
+#: templates/wp-admin/firewall/partials/xmlrpc-warning-notice.php:7
+msgid "By leaving this feature enabled you will prevent Jetpack or Wordpress iOS or other apps which need XMLRPC from working correctly on your site."
+msgstr "يؤدي تفعيل هذه الميزة إلى منع إضافة Jetpack أو the WordPress iOS أو أي إضافات أخرى تستخدم وظائف XMLRPC من العمل الصحيح في موقع الويب الخاص بك."
